@@ -1,0 +1,10 @@
+<ul class="list-inline text-center">
+  <% data.buddies.each do |buddy| %>
+    <li>
+        <%= image_tag " https://kitt.lewagon.com/placeholder/users/#{buddy[:github_nickname]}", class: "img-circle", width: "100px" %>
+      <h3><%= %></h3>
+    </li>
+  <% end %>
+</ul>
+
+
